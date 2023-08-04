@@ -2,13 +2,15 @@ import React, { useRef } from 'react';
 import TopCenter from '../center/center';
 import AboutMe from '../aboutMe/AboutMe';
 import * as S from "./NavBar.style"
+import ContactMe from '../contact/contact';
+import Projects from '../project/project';
 const NavBar = () => {
 	const Home = useRef(null);
 	const aboutRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
-  const scrollToRef = (ref: any) => {
+   const scrollToRef = (ref: any) => {
     ref.current.scrollIntoView({
       behavior: "smooth",
     });
@@ -33,10 +35,11 @@ const NavBar = () => {
         <AboutMe />
       </section>
       <section ref={projectsRef}>
-		
+    <Projects />
       </section>
 
       <section ref={contactRef}>
+        <ContactMe />
       </section>
 
     </>
