@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 
 export const Container = styled("div")({
   display: "flex",
-  marginTop: '1rem',
+  marginTop: "1rem",
   flexDirection: "row",
   alignItems: "center",
   justifyContent: "space-around",
@@ -16,14 +16,14 @@ export const Container = styled("div")({
 
 export const ImageContainer = styled("div")({
   border: "1px solid #ccc",
-  backgroundColor: 'pink',
+  backgroundColor: "pink",
   padding: "10px",
   marginBottom: "20px",
   width: "300px",
   borderRadius: "5px",
   overflow: "hidden",
   "@media (max-width: 768px)": {
-    width: "150px", 
+    width: "150px",
   },
 });
 
@@ -31,11 +31,11 @@ export const TextContainer = styled("div")({
   border: "1px solid #ccc",
   padding: "20px",
   textAlign: "center",
-  maxWidth: "500px", 
+  maxWidth: "500px",
   borderRadius: "5px",
-  backgroundColor: 'gray',
+  backgroundColor: "gray",
   "@media (max-width: 768px)": {
-    width: "80%", 
+    width: "80%",
   },
 });
 
@@ -51,7 +51,7 @@ export const Text = styled("div")({
 
 export const DownloadButton = styled("button")({
   marginTop: "10px",
-  margin: '1rem',
+  margin: "1rem",
   padding: "8px 20px",
   backgroundColor: "#4caf50",
   color: "#fff",
@@ -64,38 +64,3 @@ export const DownloadButton = styled("button")({
     backgroundColor: "#45a049",
   },
 });
-
-
-
-const projectData = [
-  {
-    id: 1,
-    name: "Project 1",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-  {
-    id: 2,
-    name: "Project 2",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-  {
-    id: 3,
-    name: "Project 3",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-  {
-    id: 4,
-    name: "Project 3",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-  {
-    id: 5,
-    name: "Project 3",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-  {
-    id: 6,
-    name: "Project 3",
-    videoUrl: "https://via.placeholder.com/400",
-  },
-];

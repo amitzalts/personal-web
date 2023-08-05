@@ -1,7 +1,6 @@
 // AboutMe.js
 import React, { useRef } from 'react';
 import * as S from "./AboutMe.style";
-import Projects from '../project/project';
 
 const AboutMe = () => {
   const projectsRef = useRef(null);

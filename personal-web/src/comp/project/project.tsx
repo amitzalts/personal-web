@@ -3,7 +3,8 @@ import * as S from "./project.style";
 
 const getRandomSpan = () => Math.floor(Math.random() * 1.5) + 1; // Generates a random span between 1 and 4
 
-const getRandomColor = () => "#" + Math.floor(Math.random() * 16777215).toString(16); // Generates a random hex color
+const getRandomColor = () =>
+  "#" + Math.floor(Math.random() * 16777215).toString(16); // Generates a random hex color
 const Projects = () => {
   const projectData = [
     {
@@ -38,7 +39,6 @@ const Projects = () => {
     },
   ];
 
-
   const generateRandomGridStyle = () => {
     let gridStyles = [];
     for (let i = 0; i < projectData.length; i++) {
@@ -69,6 +69,5 @@ const Projects = () => {
     </S.ProjectsContainer>
   );
 };
-
 
 export default Projects;
