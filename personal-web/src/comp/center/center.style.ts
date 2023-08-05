@@ -1,6 +1,21 @@
 // import { TextField } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
+export const Container = styled('div')({
+    width:'1515px',
+    height:'700px',
+    backgroundColor: 'darkslateblue',
+    display:'flex',
+    justifyContent:'space-around'
+})
+
+export const PersonalDetailsWrapper = styled('div')({
+    width:'500px',
+    display:'flex',
+    flexDirection:'column',
+    backgroundColor: 'transparent',
+})
+
 export const Profession = styled('div')({
     color: 'white',
     padding: '2rem',
@@ -15,13 +30,6 @@ export const Name = styled('div')({
     fontSize:'3rem',
 })
 
-export const PersonalDetailsWrapper = styled('div')({
-    width:'500px',
-    display:'flex',
-    flexDirection:'column',
-    backgroundColor: 'transparent',
-})
-
 export const PersonalImage = styled('div')({
     width:'400px',
     display:'flex',
@@ -31,10 +39,3 @@ export const PersonalImage = styled('div')({
     backgroundRepeat:'no-repeat',
 })
 
-export const Container = styled('div')({
-    width:'1515px',
-    height:'500px',
-    backgroundColor: 'darkslateblue',
-    display:'flex',
-    justifyContent:'space-around'
-})

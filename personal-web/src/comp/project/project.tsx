@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./project.style";
+import { motion } from "framer-motion";
 
 const getRandomSpan = () => Math.floor(Math.random() * 1.5) + 1; // Generates a random span between 1 and 4
 
@@ -55,18 +56,24 @@ const Projects = () => {
   const gridStyles = generateRandomGridStyle();
 
   return (
-    <S.ProjectsContainer>
-      {projectData.map((project, index) => (
-        <S.ProjectWrapper key={project.id} style={gridStyles[index]}>
-          <S.ProjectItem>
-            <S.VideoContainer>
-              <S.Video src={project.videoUrl} alt={`Project ${project.id}`} />
-              <S.ProjectName>{project.name}</S.ProjectName>
-            </S.VideoContainer>
-          </S.ProjectItem>
-        </S.ProjectWrapper>
-      ))}
-    </S.ProjectsContainer>
+    <motion.div
+    initial={{opacity:0}}
+    whileInView={{opacity:1}}
+    transition={{delay: 0.5, duration:0.5}}
+    >
+      <S.ProjectsContainer>
+        {projectData.map((project, index) => (
+          <S.ProjectWrapper key={project.id} style={gridStyles[index]}>
+            <S.ProjectItem>
+              <S.VideoContainer>
+                <S.Video src={project.videoUrl} alt={`Project ${project.id}`} />
+                <S.ProjectName>{project.name}</S.ProjectName>
+              </S.VideoContainer>
+            </S.ProjectItem>
+          </S.ProjectWrapper>
+        ))}
+      </S.ProjectsContainer>
+    </motion.div>
   );
 };
 
