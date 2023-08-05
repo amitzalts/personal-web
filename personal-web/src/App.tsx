@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <TopCenter/>
-      <AboutMe />
+      {/* <TopCenter/>
+      <AboutMe /> */}
     </>
   )
 }

@@ -10,7 +10,7 @@ const TopCenter = () => {
           <S.Profession>Full-Stack Developer</S.Profession>
           <S.Name>Tomer Cohen</S.Name>
         </S.PersonalDetailsWrapper>
-        <S.PersonalImage></S.PersonalImage>
+        <S.PersonalImage />
       </S.Container>
     </>
   )
