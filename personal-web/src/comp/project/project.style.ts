@@ -22,6 +22,7 @@ export const ProjectWrapper = styled("div")({
   justifyContent: "center",
   padding: "10px",
 });
+
 export const VideoContainer = styled("div")({
   position: "relative",
   cursor: "pointer",

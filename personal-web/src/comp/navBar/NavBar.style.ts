@@ -13,7 +13,9 @@ export const Nav = styled("ul")({
   width: "100%",
   margin: "0",
   position: "fixed",
+  zIndex:"99",
   top: 0,
+  cursor:"pointer",
 
   "@media (max-width: 768px)": {
     flexDirection: "column",
