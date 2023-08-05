@@ -64,3 +64,38 @@ export const DownloadButton = styled("button")({
     backgroundColor: "#45a049",
   },
 });
+
+
+
+const projectData = [
+  {
+    id: 1,
+    name: "Project 1",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+  {
+    id: 2,
+    name: "Project 2",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+  {
+    id: 3,
+    name: "Project 3",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+  {
+    id: 4,
+    name: "Project 3",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+  {
+    id: 5,
+    name: "Project 3",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+  {
+    id: 6,
+    name: "Project 3",
+    videoUrl: "https://via.placeholder.com/400",
+  },
+];

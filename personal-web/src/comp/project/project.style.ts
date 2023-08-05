@@ -16,6 +16,12 @@ export const ProjectItem = styled('div')({
   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
 });
 
+export const ProjectWrapper = styled("div")(({ style }) => ({
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "10px", // You can adjust this padding as needed
+  }));
 export const VideoContainer = styled('div')({
   position: "relative",
   cursor: "pointer",
