@@ -6,7 +6,7 @@ export const ProjectsContainer = styled("div")({
   gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
   gap: "20px",
   margin: "20px auto",
-  maxWidth: "1000px",
+  maxWidth: "70%",
 });
 
 export const ProjectItem = styled("div")({

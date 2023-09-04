@@ -32,7 +32,7 @@ export const PersonalImage = styled('div')({
 })
 
 export const Container = styled('div')({
-    width:'1515px',
+    width:'100%',
     height:'500px',
     backgroundColor: 'darkslateblue',
     display:'flex',
