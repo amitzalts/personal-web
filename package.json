@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon server.ts",
-        "build": "npm i && cd client && npm install && npm run build"
+        "build": "npm i && cd personal-web && npm install && npm run build"
     },
     "keywords": [],
     "author": "",
