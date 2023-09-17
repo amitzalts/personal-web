@@ -22,7 +22,7 @@ const ContactMe = () => {
       <h2>Contact Me</h2>
       <S.Form onSubmit={handleSubmit}>
         <S.FormGroup>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name:1</label>
           <S.Input type="text" id="name" name="name" required />
         </S.FormGroup>
         <S.FormGroup>
