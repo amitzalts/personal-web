@@ -1,4 +1,3 @@
-import React from "react";
 import * as S from "./project.style";
 
 const getRandomSpan = () => Math.floor(Math.random() * 1.5) + 1; // Generates a random span between 1 and 4

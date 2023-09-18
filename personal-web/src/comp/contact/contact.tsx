@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import * as S from "./contact.style";
 import axios from "axios"; // Import Axios
 

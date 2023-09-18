@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import TopCenter from '../center/center';
 import AboutMe from '../aboutMe/AboutMe';
 import * as S from "./NavBar.style"

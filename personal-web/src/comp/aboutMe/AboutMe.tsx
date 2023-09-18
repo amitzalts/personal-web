@@ -1,5 +1,5 @@
 // AboutMe.js
-import React, { useRef } from 'react';
+import  { useRef } from 'react';
 import * as S from './AboutMe.style';
 import pdfFile from '../../files/Tomer Cohen -09.2023 (1).pdf'; // Import your PDF file
 
